@@ -1,0 +1,2 @@
+../Core/Src/bldc.c:3:6:adjust_pwm_with_pot	8	static
+../Core/Src/bldc.c:26:6:control_bldc	8	static

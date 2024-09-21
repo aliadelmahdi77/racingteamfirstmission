@@ -17,7 +17,7 @@ The microcontroller uses interrupts to read Hall sensor values, adjusting the mo
 ### Motor and Potentiometer Connections
 - The potentiometer (5000 ohms) is connected to ADC1, mapping its resistance to an ADC output value between 0 and 4095.
 
-## Requirements
+## Value Mapping
 ### ADC Potentiometer Value Mapping
 - **Potentiometer Resistance to ADC Mapping**:
   - 0 Ohms (minimum) = ADC value 0
@@ -39,8 +39,7 @@ The PWM value is calculated as follows:
   - Phase B: MOSFET B_H (High Side), MOSFET B_L (Low Side)
   - Phase C: MOSFET C_H (High Side), MOSFET C_L (Low Side)
 
-## Testing on Proteus
-### Speed Tests
+## Speed
 1. **Maximum Speed**: POT value of 5000 ohms
 2. **Middle Speed**: POT value of 2500 ohms
 3. **Minimum Speed**: POT value of 0 ohms
